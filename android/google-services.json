@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84545636661",
+    "project_id": "silicon-data-320121",
+    "storage_bucket": "silicon-data-320121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84545636661:android:b037d7c272c636af21e47c",
+        "android_client_info": {
+          "package_name": "com.navigationhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84545636661-ouf6cjqn03hb9lehl4cv9mq6lfboqsk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navigationhub",
+            "certificate_hash": "525ee9b44cb3f678cfac1e28b8bf8bb6c59d9f24"
+          }
+        },
+        {
+          "client_id": "84545636661-445p9agi70hcuj3cemjn7kud0uvulpvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRIF8QrYCLo1kpnCMgudRep-qNQ14BXiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84545636661-445p9agi70hcuj3cemjn7kud0uvulpvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

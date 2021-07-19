@@ -10,6 +10,7 @@ import Profile from '../screen/Profile'
 import Setting from '../screen/Setting'
 import {createDrawerNavigator} from '@react-navigation/drawer'
 import Icon from 'react-native-vector-icons/FontAwesome';
+import SignIn from '../screen/auth/SignIn'
 
 
 
@@ -46,6 +47,7 @@ const HomeStack = () => {
 
 
 
+
 const ProfileStack = () => {
     return (
         <Stack.Navigator
@@ -58,6 +60,18 @@ const ProfileStack = () => {
     )
 }
 
+
+const AuthStack = () => {
+    return (
+        <Stack.Navigator
+
+        >
+            <Stack.Screen name="SignIn" component={SignIn} />
+
+
+        </Stack.Navigator>
+    )
+}
 
 const SettingStack = () => {
     return (
